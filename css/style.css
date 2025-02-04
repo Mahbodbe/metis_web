@@ -1,0 +1,239 @@
+
+.header--div {
+    width: 65%;
+}
+
+.section-hero {
+    height: calc(100vh - 8rem);
+    background-color: rgba(238, 216, 255, 0.25);
+    padding: 6.4rem 0;
+    background-image: url(../img/a.png);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+/* 
+.carousel-text {
+    background-color: cadetblue;
+
+}
+
+.carousel-inner {
+    height: calc(100vh - 8rem);
+} */
+
+.hero {
+    background-color: rgba(16, 17, 19, 0.5);
+    background-color: #f9f2ff;
+    border-radius: 11px;
+    box-shadow: 0 0 5px #f9f2ff;
+    padding: 3.2rem;
+}
+
+.primary-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 2.4rem;
+    color: #503266;
+    text-align: center;
+}
+
+.primary-title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #cd8aff;
+    text-align: center;
+    padding: 1.2rem;
+    z-index: 1;
+}
+
+.related {
+    margin-top: 15rem;
+    width: 100%;
+}
+
+
+
+.related-posts {
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 50rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+
+    gap: 2rem;
+    /* overflow: hidden; */
+}
+
+.related-post:link, .related-post:visited  {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    border-radius: 9px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #b2b1b3;
+    background-color: #e3beff;
+    transition: all 0.3s;
+    color: inherit;
+}
+
+.related-post:hover {
+    transform:translateY(-1.2rem);
+
+}
+
+.related-img {
+    background-position: center;
+    background-size: cover;
+
+}
+
+.related-img--1 {
+    background-image: url(../img/relatedb/related1.jpg);
+
+}
+
+.related-img--2 {
+    background-image: url(../img/relatedb/related2.jpg);
+}
+
+.related-img--3 {
+    background-image: url(../img/relatedb/related3.jpg);
+}
+
+.relateds-img--1 {
+    background-image: url(../img/relateds/related1.jpg);
+}
+
+.relateds-img--2 {
+    background-image: url(../img/relateds/related2.jpg);
+}
+
+.relateds-img--3 {
+    background-image: url(../img/relateds/related3.jpg);
+}
+
+
+
+.related-text {
+    margin-top: 1.6rem;
+    line-height: 1.5;
+    padding: 1rem;
+}
+
+.related-text h3 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.related-text p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #555;
+}
+
+.read-more {
+
+    font-size: 1.6rem;
+    text-align: center;
+    align-self: center;
+
+}
+
+.read-more a:link, .read-more a:visited{
+    text-decoration: none;
+    color: #d297ff;
+    padding: 1.2rem;
+    border-radius: 11px;
+    background-color: #3c254c;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+.read-more a:hover, .read-more a:active {
+    display: inline-block;
+    background-color: #2a1a35;
+    color: #CD8AFF;
+    transform:translateY(-1.2rem);
+}
+
+.title:link, .title:visited {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+
+
+.title h2 {
+    grid-column: 2 / -2;
+    color: #3c254c;
+    text-align: center;
+    margin-bottom: 5rem ;
+    max-width: 200rem;
+    font-size: 2.4rem;
+    font-weight: 300;
+    padding: 2rem;
+    border-bottom: 1px solid #3c254c;
+    transition: all 0.3s;
+}
+
+.title h2:hover {
+    transform:translateY(-1.2rem);
+    text-shadow: 0 0 10px #c77dff;
+    border-bottom-color: #c77dff;
+}
+
+
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    
+}
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+  /* Position the "next button" to the right */
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.slider {
+    height: 100vh;
+    display: none;
+}
+
+.slider--one {
+    background-image: url(../img/a.png);
+
+}
+
+.slider-two {
+    background-image: url(../img/w1.jpg);
+}

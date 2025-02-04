@@ -1,0 +1,459 @@
+/*-----------------------------
+
+below 1344px (smaller PCs)
+
+------------------------------*/
+
+@media(max-width:84em) {
+
+    .related-posts {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: 50rem;
+        margin: 0 auto;
+        width: 70%;
+        gap: 1.2rem;
+        /* overflow: hidden; */
+    }
+
+    .post-res {
+        display: none !important;
+    }
+
+    .header {
+        gap: 30rem;
+    }
+
+    .container-blog {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+/*-----------------------------
+
+below 1200px (carousel settting)
+
+------------------------------*/
+
+@media(max-width:75em) {
+    .mySlides a div div {
+        margin-top: 0;
+        padding: 0 1.2rem;
+    }
+}
+
+/*-----------------------------
+
+below 1104px (Horizontal tablets)
+
+------------------------------*/
+
+@media(max-width:69em) {
+    .header {
+        gap: 10rem;
+    }
+
+    .primary-heading {
+        font-size: 3rem;
+    }
+
+    .primary-title {
+        font-size: 2rem;
+    }
+
+    .nav-img {
+        margin-right: 5rem;
+    }
+
+    .section-hero {
+        background-position: center;
+    }
+
+    .related-text h3 {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    .related-text p {
+        font-size: 1.6rem;
+    }
+    .moarefi {
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+
+    .container {
+        width: 70%;
+    }
+}
+
+
+/*-----------------------------
+
+below 912px (samll tablets)
+
+------------------------------*/
+
+@media(max-width:57em) {
+
+    .related-posts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 80rem;
+        margin: 0 auto;
+        width: 60%;
+        gap: 1rem;
+        /* overflow: hidden; */
+    }
+
+    .post-res {
+        display: grid !important;
+    }
+
+    .related-text p {
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+
+    .btn-mobile-nav {
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .icon-mobile-nav {
+        width: 4.8rem;
+        height: 4.8rem;
+        color: #fff;
+    }
+
+    
+    .btn-mobile-nav {
+        display: block;
+    }
+
+    .icon-mobile-nav[name="close-outline"] {
+        display: none;
+    }
+
+    .main-nav {
+        background-color: rgba(255, 255, 255, 0.8);
+        position: absolute;
+        top: 0;
+        padding-top: 10rem;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+        transition: all 0.5s ease-in;
+        transform: translatex(100%);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    .main-nav-list {
+        flex-direction: column;
+        gap: 4.8rem;
+    }
+
+    .main-nav-link:link, .main-nav-link:visited {
+        font-size: 3rem;
+    }
+
+    .nav-open .main-nav {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transform: translatex(-20rem);
+        z-index: 1;
+    }
+
+    .nav-open .icon-mobile-nav[name="close-outline"] {
+        display: block;
+    }
+
+    .nav-open .icon-mobile-nav[name="menu-outline"] {
+        display: none;
+    }
+
+    .header {
+        flex-direction: row-reverse;
+    }
+
+    .sticky .header{
+        position: fixed;
+        /* background-color: #fff; */
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: 9;
+        background: rgba(0 , 0, 0, 0.25);
+        height: 8rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+    }
+    
+    .sticky .section-hero {
+        margin-top: 10rem;
+    }
+
+    .title h2 {
+        font-size: 2.8rem;
+    }
+    
+    .mySlides a div div h3 {
+        font-size: 1.6rem;
+    }
+
+    .mySlides a div div p {
+        font-size: 1rem;
+    }
+}
+
+/*-----------------------------
+
+below 704px (samll tablets)
+
+------------------------------*/
+
+@media(max-width:44em) {
+
+    .primary-heading {
+        font-size: 2.4rem;
+    }
+
+    .primary-title {
+        font-size: 1.8rem;
+    }
+
+    .container-blog {
+        padding: 0 1.2rem;
+        gap: 2.5rem;
+    }
+
+    .blog-posts {
+        margin-bottom: 0;
+    }
+
+    .blog-posts a {
+        grid-template-rows: 2fr 1fr;
+    }
+
+    .blog-posts a div h3 {
+        font-size: 1.6rem;
+    }
+
+    .main-blog h2 {
+        margin-bottom: 0;
+    }
+}
+
+/*-----------------------------
+
+below 608px (mobile)
+
+------------------------------*/
+
+@media(max-width:38em) {
+
+    html {
+        font-size: 50%;
+    }
+    
+    .primary-heading {
+        padding-bottom: 0;
+        line-height: 1.5;
+        font-size: 2rem;
+    }
+
+    .primary-title {
+        padding-top: 0;
+        line-height: 1.5;
+        font-size: 1.6rem;
+    }
+
+    .title h2 {
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
+        padding-bottom: 1rem;
+        line-height: 1.2;
+    }
+
+    .read-more {
+        font-size: 1.8rem;
+    }
+
+    .related-posts {
+        width: 80%;
+        gap: 0.75rem;
+    }
+
+    .related-text h3 {
+        font-size: 1.8rem;
+    }
+
+    .related-text p {
+        font-size: 1.2rem;
+    }
+
+    .moarefi {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .col-one {
+        width: 50%;
+    }
+
+    .col-two {
+        width: 50%;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+
+    .social-links {
+        gap: 0;
+    }
+
+    .footer-link {
+        padding: 0;
+    }
+
+    .ion-icon {
+        padding: 0 !important;
+        font-size: 1.2rem !important;
+    }
+
+    .footer-link:link, .footer-link:visited {
+        padding: 1rem;
+    }
+    
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .header {
+        gap: 0;
+    }
+
+    .mySlides a div div h3 {
+        font-size: 1.4rem;
+        line-height: 1.4;
+    }
+
+    .mySlides a div div p {
+        line-height: 1.4 !important;
+    }
+
+    .slideshow-container {
+        width: 70%;
+    }
+
+    .main-blog {
+        margin: 2.4rem auto;
+    }
+}
+
+/*-----------------------------
+
+below 464px (small mobile)
+
+------------------------------*/
+ 
+@media(max-width:29em) {
+
+    .container-blog {
+        grid-template-columns: 1fr;
+    }
+
+    .blog-posts {
+        margin-top: 0;
+    }
+
+    .mySlides a div div h3 {
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+
+    .mySlides a div div p {
+        font-size: 0.8rem;
+    }
+
+}
+
+/*-----------------------------
+
+below 304px (small mobile)
+
+------------------------------*/
+
+@media(max-width:19em) {
+
+    .mySlides a div div h3 {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
+    .header {
+        padding: 0;
+    }
+
+    .primary-heading {
+        padding-bottom: 0;
+        line-height: 1.5;
+        font-size: 1.6rem;
+    }
+
+    .primary-title {
+        padding-top: 0;
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+
+    .read-more a {
+        padding: 1.2rem !important;
+    }
+
+    .read-more {
+        padding: 0;
+        font-size: 1.2rem;
+    }
+
+    .related-posts {
+        width: 100%;
+        padding: 0 1.2rem;
+        gap: 0.25;
+    }
+
+    .related-text {
+        padding: 0 0.8rem;
+    }
+
+    .logo {
+        width: 80%;
+    }
+
+    .slideshow-container {
+        width: 80%;
+    }
+
+    .main-blog {
+        width: 80%;
+    }
+
+}

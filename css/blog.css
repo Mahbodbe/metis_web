@@ -1,0 +1,134 @@
+/* .slideshow-container {
+    box-shadow: 0 0 10px #818181;
+    background-color: rgba(155, 155, 155, 0.25);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.5s;
+
+}
+
+.slideshow-container:hover {
+    background-color: rgba(155, 155, 155, 0.5);
+} */
+
+
+
+
+.related-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .fade a:link, .fade a:visited  {
+    text-decoration: none;
+}
+
+.fade a:active, .fade a:hover  {
+    text-decoration: none;
+}
+
+.fade a h3 {
+    color: #222;
+    
+} */
+
+.main-blog {
+    transition: all 0.3s;
+    /* background-color: rgba(155, 155, 155, 0.25); */
+    width: 65%;
+    height: auto;
+    /* box-shadow: 0 0 10px #818181; */
+    margin: 3.2rem auto;
+    border-radius: 1.1rem;
+    /* padding: 0 3.2rem; */
+}
+
+
+.container-blog {
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 4.8rem;
+    row-gap: 2.4rem;
+    padding: 0 3.2rem;
+}
+
+.container-blog--2grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.img-blog-post {
+    width: 100%;
+
+    /* display: block; */
+}
+
+.blog-posts {
+    margin: 3.2rem 0;
+    box-shadow: 0 0 10px #c9c9c9;
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.3s;
+    background-color: #eed8ff;
+    height: 40rem;
+
+}
+
+.blog-posts:hover {
+    transform: scale(1.05);
+}
+
+.blog-posts a {
+    height: 40rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5fr 1fr;
+    /* gap: 1.2rem; */
+    margin-bottom: 2.4rem;
+}   
+
+
+.blog-posts a:link, .blog-posts a:visited, .blog-posts a:hover, .blog-posts a:active {
+    text-decoration: none;
+}
+
+.blog-posts a div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-posts a div h3 {
+    color: #222;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+
+    line-height: 1.5;
+    padding: 1.2rem;
+}
+
+
+.sticky .title-sect {
+    margin-top: 8rem;
+}
+
+
+.blog-posts .special {
+    display: flex;
+}
+
+.blog-posts--sp {
+    height: 30rem;
+}
+
+.blog-posts--sp a {
+    height: 30rem;
+}
+
+.blog-posts--sp {
+    margin-bottom: 0;
+}

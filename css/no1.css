@@ -1,0 +1,193 @@
+
+.main-shopno-section {
+    width: 100%;
+
+    padding: 2.4rem 3.2rem;
+
+}
+
+.main-shopno {
+    width: 65%;
+    box-shadow: 0 0 10px #e9cbff;
+
+    margin: 1.2rem auto;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+}
+
+.primary-heading {
+    font-size: 2.4rem;
+    display: block;
+    text-align: center;
+    color: #333;
+    width: 80%;
+    margin: 1.6rem auto 0 auto;
+}
+
+h1.primary-heading {
+
+    padding: 0;
+}
+
+div.primary-heading {
+    margin-top: 2.4rem;
+    padding: 0;
+}
+
+.main-shop-img {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.main-shop-img div {
+    width: 50%;
+}
+
+.shop-img--no1 {
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 11px;
+    transition: all 0.3s;
+
+}
+
+.shop-img--no1:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.shop-title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 2.4rem 3rem;
+    text-align: center;
+    line-height: 1.5;
+    color: #333;
+    /* width: 50%; */
+}
+
+.shop-title--p {
+    width: 50%;
+    font-size: 2rem;
+}
+
+.shop-title--span {
+    color: #555;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.shop-list {
+    list-style: none;
+    /* text-align: center; */
+    margin: 1.2rem 5rem 0 0;
+    line-height: 1.4;
+}
+
+.shop-stone:link, .shop-stone:visited {
+    text-decoration: none;
+    font-size: 3rem;
+    text-align: center;
+    color: #503266;
+    /* margin-right: 2.4rem; */
+}
+
+.shop-list-li {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.8;
+}
+
+.shop-list--span {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #111;
+}
+
+.shop-list-li--adv {
+    color: #554;
+    font-size: 1.4rem;
+}
+
+.shop-cards {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6.4rem;
+    margin: 0 auto;
+}
+
+.shop-card {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 1fr;
+    box-shadow: 0 0 10px #e9cbff;
+    transition: all 0.3s;
+    margin-bottom: 4.8rem;
+}
+
+.shop-card:hover {
+    transform: scale(1.05);
+}
+
+.shop-card--img {
+    background-size: cover;
+}
+
+.shop-card--img--no1 {
+    background-image: url(../img/relateds/no4.1.jpg);
+}
+
+.shop-card--img--no2 {
+    background-image: url(../img/relateds/no1.2.jpg);
+}
+
+.shop-card--text {
+    margin: 0 1.2rem 2.4rem;
+    text-align: center;
+}
+
+.shop-card {
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+.prime-card {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #444;
+}
+
+button {
+    border: none;
+    height: 3.6rem;
+    background-color: #3c254c;
+    font-family: inherit;
+}
+
+button a:link, button a:visited, button a:hover {
+    text-decoration: none;
+    color: #E0DCDC;
+    font-size: 1.2rem;
+}
+
+.warning {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 4.8rem;
+    color: #666;
+    text-align: center;
+}
+
+.sticky .title-sect {
+    margin-top: 8rem;
+}
